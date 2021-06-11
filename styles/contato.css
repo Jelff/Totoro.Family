@@ -1,0 +1,60 @@
+header {
+    background-image: url("../img/contatoimg.png");
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 44px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+article {
+    padding-right: 44px;
+    width: 50%;
+}
+
+h2 {
+    font-size: 44px;
+    padding: 30px 0;
+}
+
+article img {
+    margin: 150px 0 0 300px;
+}
+form {
+    padding-top: 107px;
+}
+
+input {
+    width: 600px;
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+textarea {
+    width: 600px;
+    font-size: 20px;
+    height: 400px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 15px;
+    background-color: #1B1D1F;
+    color: #CCCCCC;
+    font-family: "Comfortaa", sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-image: url("../img/contatoimg.png");
+} 

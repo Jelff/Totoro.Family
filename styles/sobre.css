@@ -1,0 +1,43 @@
+header {
+    background-image: url("../img/familyimg.png");
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 630px;
+    align-items: flex-start;
+}
+article {
+    width: 50%;
+    text-align: justify;
+
+}
+
+article h2 {
+    font-size: 44px;
+    padding-bottom: 25px;
+}
+
+article p {
+    font-size: 20px;
+}
+
+img[src= "../img/kiki.png"] { 
+    width: 750px;
+}
+
+img[src= "../img/studio3.png"] {
+    width: 450px;
+} 
+
+footer {
+    background-image: url("../img/familyimg.png");
+}

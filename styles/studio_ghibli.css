@@ -1,0 +1,60 @@
+header {
+    background-image: url("../img/group3.png");
+}
+
+td {
+    padding:20px 20px;
+}
+
+article {
+    display:flex;
+    flex-direction: row;
+}
+
+article > div:first-child {
+    padding-right: 50px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+article > div:first-child > p {
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}
+
+article > div:first-child > img {
+    margin-bottom: 70px;
+}
+
+article > div:first-child > h3 {
+    font-size: 43px;
+    padding: 80px 0 30px 30px;
+}
+
+article > div:first-child > h2 {
+    font-size: 44px;
+    padding: 30px;
+}
+
+.caixa-azul {
+    padding: 50px;
+    background-color:#2066CF;
+    color:white;
+    display: inline-block;
+    text-align: center;
+    flex: none;
+    margin: 115px 50px 0 0px;
+}
+
+table {
+    text-align: left;
+}
+
+.studio3 {
+    padding-left: 30px;
+    padding-top: 115px;
+}
+
+footer {
+    background-image: url("../img/group3.png");
+}
