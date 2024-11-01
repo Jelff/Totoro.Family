@@ -1,0 +1,13 @@
+{
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dracula-theme.theme-dracula",
+				"xabikos.JavaScriptSnippets",
+				"vscode-icons-team.vscode-icons"
+			]
+		}
+	}
+}
